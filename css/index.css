@@ -1,0 +1,63 @@
+html, input{
+    font-family: sans-serif;
+}
+/* for center line of web pages(html) we provide body  */
+body{
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 2em;
+}
+
+/* its prividing the color HTML5 center by display :flex(its your choise) */
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: rgb(23, 106, 250);
+    font-weight: bold;
+    margin: bottom 20px; ;
+}
+
+form {
+    margin-top: 50px;
+}
+
+    /* arang <div> tag all using by this step like we every time
+    <label for="text"...etc , now we use div { we arage center every div tag
+    we fixed block using justify-contents:. */
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* using this function for button size width increase and dcrease using by 
+    line-height */
+label, input,button{
+    font-size: 16px;
+    line-height: 1.3;
+
+}
+label{
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+
+}
+input{
+    flex: auto;
+}
+/* using button for all fixed blocks
+    and sumit button also */
+button{
+    width: 70%;
+    margin: 0 auto;
+}
+/* using error-output function for when given wrong name, than error show italic style */
+error-output {
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+}
+
